@@ -54,7 +54,7 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} Is nu online!`)
 
-    bot.user.setActivity("Crunchpixel", {type: "WATCHING"});
+    bot.user.setActivity(`${bot.users.size}`, {type: "WATCHING"});
 
 });
 
